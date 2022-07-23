@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "dc-rubocop"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.summary       = "Shared RuboCop config for DC projects"
   spec.description   = "Why spend 1 second copy-pasting when you can spend an hour creating a custom gem to share a RuboCop config"
   spec.authors       = ["David Crosby"]
