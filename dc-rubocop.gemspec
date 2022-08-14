@@ -10,5 +10,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = ['default.yml', 'dc-rubocop.gemspec']
 
-  spec.add_dependency "rubocop"
+  spec.add_dependency "rubocop", "~> 1.30"
 end
