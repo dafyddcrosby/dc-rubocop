@@ -1,2 +1,3 @@
 inherit_gem:
-  dc-rubocop: default.yml
+  # Use oldest supported Ruby config
+  dc-rubocop: ruby25.yml

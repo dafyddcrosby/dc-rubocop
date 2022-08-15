@@ -1,14 +1,24 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |spec|
   spec.name          = "dc-rubocop"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.summary       = "Shared RuboCop config for DC projects"
-  spec.description   = "Why spend 1 second copy-pasting when you can spend an hour creating a custom gem to share a RuboCop config"
+  spec.description   =
+    "Why spend 1 second copy-pasting when you can spend an hour creating a custom gem to share a RuboCop config"
   spec.authors       = ["David Crosby"]
   spec.email         = ["dave@dafyddcrosby.com"]
   spec.homepage      = "https://dafyddcrosby.com"
   spec.license       = "MIT"
+  spec.required_ruby_version = ">= 2.5.0"
 
-  spec.files         = ['default.yml', 'dc-rubocop.gemspec']
+  spec.files = [
+    "dc-rubocop.gemspec",
+    "default.yml",
+    "ruby25.yml",
+    "ruby26.yml"
+  ]
 
   spec.add_dependency "rubocop", "~> 1.30"
+  spec.metadata["rubygems_mfa_required"] = "true"
 end
