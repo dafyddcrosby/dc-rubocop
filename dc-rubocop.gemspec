@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "dc-rubocop"
-  spec.version       = "0.0.4"
+  spec.version       = "0.0.5"
   spec.summary       = "Shared RuboCop config for DC projects"
   spec.description   =
     "Why spend 1 second copy-pasting when you can spend an hour creating a custom gem to share a RuboCop config"
@@ -10,13 +10,12 @@ Gem::Specification.new do |spec|
   spec.email         = ["dave@dafyddcrosby.com"]
   spec.homepage      = "https://dafyddcrosby.com"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.5.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.files = [
     "dc-rubocop.gemspec",
     "default.yml",
-    "ruby25.yml",
-    "ruby26.yml"
+    "ruby30.yml"
   ]
 
   spec.add_dependency "rubocop", "~> 1.30"

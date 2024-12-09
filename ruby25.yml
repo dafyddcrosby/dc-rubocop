@@ -1,5 +1,0 @@
-inherit_gem:
-  dc-rubocop: default.yml
-
-AllCops:
-  TargetRubyVersion: 2.5
