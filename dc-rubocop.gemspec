@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "dc-rubocop"
-  spec.version       = "0.0.5"
+  spec.version       = "0.1.0"
   spec.summary       = "Shared RuboCop config for DC projects"
   spec.description   =
     "Why spend 1 second copy-pasting when you can spend an hour creating a custom gem to share a RuboCop config"
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
     "ruby30.yml"
   ]
 
-  spec.add_dependency "rubocop", "~> 1.30"
+  spec.add_dependency "rubocop", "~> 1.69"
+  spec.add_dependency "rubocop-performance", "~> 1.23"
   spec.metadata["rubygems_mfa_required"] = "true"
 end
