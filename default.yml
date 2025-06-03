@@ -5,6 +5,9 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
 
+Layout/LeadingCommentSpace:
+  AllowRBSInlineAnnotation: true
+
 Layout/LineLength:
   Max: 120
 
