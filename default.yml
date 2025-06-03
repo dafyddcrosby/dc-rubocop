@@ -14,6 +14,11 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
+# I haven't benchmarked this, but it's less readable, and encoding problems
+# are a PITA to debug
+Performance/UnfreezeString:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
